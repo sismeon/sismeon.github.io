@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-remote-theme: dbtek/dbyll
+remote-theme: minima
 plugins:
   - jekyll-feed
 
