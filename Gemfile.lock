@@ -203,6 +203,7 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.14.0)
+    multi_json (1.14.1)
     multipart-post (2.1.1)
     nokogiri (1.10.7-x64-mingw32)
       mini_portile2 (~> 2.4.0)
@@ -212,6 +213,8 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.1.1)
+    pygments.rb (1.2.1)
+      multi_json (>= 1.0.0)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -246,8 +249,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-feed (~> 0.9)
-  minima (~> 2.5.1)
+  jekyll-paginate
+  pygments.rb
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
